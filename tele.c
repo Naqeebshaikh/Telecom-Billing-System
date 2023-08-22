@@ -263,4 +263,5 @@ void payment()
     system("cls");
     printf("THANK YOU %s FOR YOUR TIMELY PAYMENTS",s.name);
     getch();
+    fclose(f);
 }
